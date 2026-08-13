@@ -85,6 +85,12 @@ nav a.active {
     font-weight: bold;
 }
 
+.hero-button:hover {
+    background-color: darkred;
+}
+
+
+
 .hero p {
     font-size: 23px;
 }
