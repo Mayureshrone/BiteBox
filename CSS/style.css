@@ -74,6 +74,10 @@ nav a.active {
     color: white;
 }
 
+.hero-button:hover {
+    background-color: darkred;
+}
+
 .hero-button {
     margin-top: 15px;
     padding: 13px 25px;
@@ -84,13 +88,6 @@ nav a.active {
     cursor: pointer;
     font-weight: bold;
 }
-
-.hero-button:hover {
-    background-color: darkred;
-}
-
-
-
 
 .hero p {
     font-size: 23px;
