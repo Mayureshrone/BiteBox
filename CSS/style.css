@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0px 30px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav h2 {
+    color: white;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav li {
+    font-size: 20px;
+}
+
+nav li:last-child a {
+    background-color: red;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+nav li:last-child a:hover {
+    background-color: red;
+    color: black;
+}
+
+nav a.active {
+    color: red;
+    font-weight: bold;
+    border-bottom: 4px solid red;
+}
+
+.logo {
+
+    height: 100px;
+    width: 200px;
+
+}
+
+.hero {
+    height: 90vh;
+    background-image: url("../images/herobanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-button {
+    margin-top: 15px;
+    padding: 13px 25px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 23px;
+}
+
+.hero h1 {
+    font-size: 37px;
+}
+
+.video-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 40px;
+    background-color: rgb(250, 232, 206);
+}
+
+.video-text {
+    flex: 1;
+}
+
+.video-box {
+    flex: 1;
+}
+
+.video-box video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-text h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.video-text p {
+    font-size: 18px;
+    color: #444;
+}
+
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #d3fdab;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgba(255, 0, 0, 0.615);
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about p {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+
