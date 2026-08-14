@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>BiteBox Login</title>
+    <title>BiteBox Signup</title>
 
     <link rel="stylesheet" href="CSs/login.css">
     <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
@@ -38,23 +38,28 @@
     </header>
 
     <!--Start authentication section-->
-    <section class="auth-container">
-        <div class="auth-box">
-            <h2>Login to Bite<span>Box</span></h2>
+<section class="auth-container">
 
-            <form>
-                <input type="email" placeholder="Enter Email" required>
-                <input type="password" placeholder="Enter password" required>
+    <div class="auth-box">
 
-                <button type="submit">Login</button>
-            </form>
+        <h2>Create Account</h2>
 
-            <p><a href="signup.html">Forgot password</a></p>
-            <p>Don't have an account <a href="signup.html">Signup</a></p>
-        </div>
-    </section>
+        <form>
+            <input type="text" placeholder="Full name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm password" required>
 
-    <!--End authentication section-->
+            <button type="submit">Signup</button>
+        </form>
+
+        <p>Already have an account? <a href="login.html">Login</a></p>
+
+    </div>
+
+</section>
+
+<!--End authentication section-->
 </body>
 
 </html>
