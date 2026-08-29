@@ -65,14 +65,14 @@ nav a.active {
 table {
     width: 70%;
     border-collapse: collapse;
-    background: #a7fd56;
+    background: linear-gradient(to right, #f5efd5, #bdb590);
     border-radius: 10px;
     overflow: hidden;
     margin: auto;
 }
 
 thead {
-    background: #f80202;
+    background: linear-gradient(to right, #0F172A, #1E293B);
     color: white;
 }
 

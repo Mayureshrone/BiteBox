@@ -63,9 +63,9 @@ nav a.active {
 }
 
 .card {
-    background: #fff;
+    background: linear-gradient(135deg, #9AF8B3, #E0ECE4);
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -91,7 +91,7 @@ nav a.active {
 }
 
 .menu{
-    background-color: #c4ff8d;
+    background:linear-gradient(180deg,#00F260, #3e75cf );
 }
 
 .menu h2{
@@ -115,7 +115,7 @@ nav a.active {
     overflow:auto;
     gap: 20px;
     padding: 20px;
-    background-color: #f04343;
+    background:linear-gradient(180deg, #0575E6, #00F260);
 }
 
 .icon-box{
