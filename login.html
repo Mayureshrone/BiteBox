@@ -42,9 +42,16 @@
         <div class="auth-box">
             <h2>Login to Bite<span>Box</span></h2>
 
-            <form>
-                <input type="email" placeholder="Enter Email" required>
-                <input type="password" placeholder="Enter password" required>
+            <form id="signUp">
+                <div>
+                    <input type="email" placeholder="Enter Email" id="email" >
+                    <small></small>
+                </div>
+
+                <div>
+                    <input type="password" placeholder="Enter password" id="password">
+                    <small></small>
+                </div>
 
                 <button type="submit">Login</button>
             </form>
@@ -55,6 +62,8 @@
     </section>
 
     <!--End authentication section-->
+
+    <script src="formvalidation.js"></script>
 </body>
 
 </html>
